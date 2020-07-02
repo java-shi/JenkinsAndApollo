@@ -6,7 +6,7 @@
 <mapper namespace="com.sfy.mapper.UserMapperr">
 
     <resultMap id="userMap" type="com.sfy.entity.User">
-        <id column="user_id" property="userid"></id>
+        <id column="user_id"  property="userid"></id>
         <result column="user_name" property="userName"></result>
         <result column="user_birthday" property="userBirthday" ></result>
     </resultMap>

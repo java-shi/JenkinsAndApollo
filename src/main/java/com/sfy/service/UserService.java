@@ -9,5 +9,5 @@ import java.util.List;
  * @Date: 2020/7/2 0002 9:37
  */
 public interface UserService {
-    public List<User> getUser();
+     List<User> getUser();
 }
