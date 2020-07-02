@@ -19,8 +19,8 @@ public class JenkinsDemoController {
     @Resource
     private UserService userService;
 
-    @RequestMapping(method = RequestMethod.GET,path = "/getDemo")
-    public List<User> gerDemo()
+    @RequestMapping(method = RequestMethod.GET,path = "/getUser")
+    public List<User> getUser()
     {
         return userService.getUser();
     }
