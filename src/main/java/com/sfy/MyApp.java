@@ -11,7 +11,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
  * @Author: Sfy
  * @Date: 2020/7/2 0002 9:21
  */
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@SpringBootApplication
 @MapperScan("com.sfy.mapper")
 public class MyApp extends SpringBootServletInitializer {
 
