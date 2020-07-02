@@ -3,9 +3,9 @@ package com.sfy.service.impl;
 import com.sfy.entity.User;
 import com.sfy.mapper.UserMapperr;
 import com.sfy.service.UserService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
 import java.util.List;
 
 /**
@@ -15,7 +15,7 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
 
-    @Resource
+    @Autowired
     private UserMapperr userMapperr;
 
 
