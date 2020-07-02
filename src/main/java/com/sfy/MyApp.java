@@ -16,7 +16,7 @@ public class MyApp extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        return new SpringApplicationBuilder(MyApp.class);
+        return builder.sources(MyApp.class);
     }
 
     public static void main(String[] args) {
